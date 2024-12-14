@@ -37,6 +37,11 @@
             bindings = <&sys_reset>;
             key-positions = <24 35>;
         };
+
+        Syslayer {
+            bindings = <&mo 3>;
+            key-positions = <36 41>;
+        };
     };
 };
 
