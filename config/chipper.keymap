@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define COMBO_TIMEOUT 60
@@ -112,6 +113,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        System {
+            bindings = <
+&bootloader  &none         &none         &none         &none         &sys_reset    &sys_reset  &none  &none  &none  &none  &bootloader
+&none        &none         &none         &none         &none         &none         &none       &none  &none  &none  &none  &none
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none       &none  &none  &none  &none  &none
+                                         &none         &none         &none         &none       &none  &none
             >;
         };
     };
