@@ -1,5 +1,7 @@
 # zmk-xiao-ble-corne
-Welcome, this is a forked repo for the firmware for a crkbd sold by a few vendors on AliExpress. 
+Welcome, this is a forked repo for the firmware for a crkbd sold by a few vendors on AliExpress.
+
+The original repository has not been updated in over a year, but I will keep updating this fork for as long as I own the keyboard.
 
 The keyboard in question is designed by Jon Muller, has the text "Abomination v.1.2" written on it and uses the xiao-ble controller.
 
