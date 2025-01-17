@@ -113,10 +113,10 @@
 
         Lower {
             bindings = <
-&kp GRAVE  &kp AMPERSAND    &kp LESS_THAN   &kp UP_ARROW    &kp GREATER_THAN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_EQUAL
-&kp TILDE  &kp PERCENT      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &kp KP_PLUS
-&kp CARET  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH        &kp DOLLAR        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp KP_ASTERISK  &kp KP_DIVIDE
-                                            &none           &none             &none                   &none                  &none            &none
+&kp KP_NUMLOCK  &kp AMPERSAND    &kp LESS_THAN   &kp UP_ARROW    &kp GREATER_THAN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_EQUAL
+&kp TILDE       &kp PERCENT      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &kp KP_PLUS
+&kp CARET       &kp EXCLAMATION  &kp AT_SIGN     &kp HASH        &kp DOLLAR        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp KP_ASTERISK  &kp KP_DIVIDE
+                                                 &none           &none             &none                   &none                  &none            &none
             >;
 
             label = "Numbers";
