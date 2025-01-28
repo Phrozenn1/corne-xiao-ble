@@ -40,16 +40,6 @@
             bindings = <&kp LC(Z)>;
             key-positions = <26 25>;
         };
-
-        Backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <30 31>;
-        };
-
-        Tab {
-            bindings = <&kp TAB>;
-            key-positions = <32 33>;
-        };
     };
 };
 
@@ -102,10 +92,10 @@
             //             | GUI | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q  &kp W        &kp F           &kp P             &kp B        &kp J       &kp L              &kp U            &kp Y        &kp SEMI        &kp PIPE
-&kp TAB     &kp A  &hm LCTRL R  &hm LEFT_ALT S  &hm LEFT_SHIFT T  &kp G        &kp M       &hm RIGHT_SHIFT N  &hm RIGHT_ALT E  &hm RCTRL I  &hm LEFT_GUI O  &kp APOSTROPHE
-&none       &kp Z  &kp X        &kp C           &kp D             &kp V        &kp K       &kp H              &kp COMMA        &kp DOT      &kp FSLH        &kp NON_US_BACKSLASH
-                                &kp GLOBE       &mo 1             &kp SPACE    &kp RETURN  &mo 2              &sl 3
+&mo 3      &kp Q  &kp W        &kp F           &kp P             &kp B        &kp J       &kp L              &kp U            &kp Y        &kp SEMI        &kp PIPE
+&tog 2     &kp A  &hm LCTRL R  &hm LEFT_ALT S  &hm LEFT_SHIFT T  &kp G        &kp M       &hm RIGHT_SHIFT N  &hm RIGHT_ALT E  &hm RCTRL I  &hm LEFT_GUI O  &kp APOSTROPHE
+&kp GLOBE  &kp Z  &kp X        &kp C           &kp D             &kp V        &kp K       &kp H              &kp COMMA        &kp DOT      &kp FSLH        &kp NON_US_BACKSLASH
+                               &kp BACKSPACE   &mo 1             &kp SPACE    &kp RETURN  &kp ESC            &kp TAB
             >;
 
             label = "BASE";
