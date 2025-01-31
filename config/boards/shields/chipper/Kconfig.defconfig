@@ -31,7 +31,7 @@ config SPI
 	default y
 
 config LS0XX
-	default y
+	default n
 
 config LV_Z_BITS_PER_PIXEL
 	default 1
