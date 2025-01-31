@@ -103,7 +103,7 @@
 
         Lower {
             bindings = <
-&trans     &kp AMPERSAND    &kp LESS_THAN     &kp UP_ARROW    &kp GREATER_THAN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N7         &kp N8        &kp N9        &kp NUMBER_0  &kp KP_NUMLOCK
+&none      &kp AMPERSAND    &kp LESS_THAN     &kp UP_ARROW    &kp GREATER_THAN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N7         &kp N8        &kp N9        &kp NUMBER_0  &kp KP_NUMLOCK
 &kp TILDE  &kp PERCENT      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp MINUS     &kp EQUAL
 &kp CARET  &kp EXCLAMATION  &sm AT_SIGN HOME  &kp HASH        &sm DOLLAR END    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp ASTERISK
                                               &none           &none             &none                   &kp LEFT_SHIFT         &kp LEFT_META  &none
