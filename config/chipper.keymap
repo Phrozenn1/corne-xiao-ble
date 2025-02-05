@@ -86,10 +86,10 @@
 
         default_layer {
             // -----------------------------------------------------------------------------------------
-            // |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | 
-            // |  A  |  S  |  D  |  F  |  G  |   |  M  |  N   |  E  |  I  |  O  |
-            // |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | 
-            //             | BSP | LWR | SPC |   | ENT | TAB  | ESC |
+            // |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | 
+            // |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |
+            // |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | 
+            //             | GUI | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
 &mo 3      &kp Q  &kp W        &kp F           &kp P             &kp B        &kp J       &kp L              &kp U            &kp Y        &kp SEMI        &kp PIPE
@@ -119,8 +119,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
-
-						label = "Stuff"
         };
 
         System {
@@ -130,7 +128,6 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp K_POWER  &none  &none  &none  &none  &none
                                         &none         &none         &none           &none        &none  &none
             >;
-						label = "System"
         };
     };
 
