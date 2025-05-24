@@ -92,10 +92,10 @@
             //             | GUI | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&mo 3      &kp Q  &kp W        &kp F           &kp P             &kp B                   &kp J        &kp L              &kp U            &kp Y        &kp SEMI        &kp PIPE
-&tog 2     &kp A  &hm LCTRL R  &hm LEFT_ALT S  &hm LEFT_SHIFT T  &kp G                   &kp M        &hm RIGHT_SHIFT N  &hm RIGHT_ALT E  &hm RCTRL I  &hm LEFT_GUI O  &kp APOSTROPHE
-&kp GLOBE  &kp Z  &kp X        &kp C           &kp D             &kp V                   &kp K        &kp H              &kp COMMA        &kp DOT      &kp FSLH        &kp NON_US_BACKSLASH
-                               &mo 1           &mt RET SPACE     &mt DELETE BACKSPACE    &key_repeat  &kp TAB            &kp ESCAPE
+&mo 3      &kp Q  &kp W        &kp F           &kp P             &kp B      &kp J      &kp L              &kp U            &kp Y        &kp SEMI        &kp PIPE
+&tog 2     &kp A  &hm LCTRL R  &hm LEFT_ALT S  &hm LEFT_SHIFT T  &kp G      &kp M      &hm RIGHT_SHIFT N  &hm RIGHT_ALT E  &hm RCTRL I  &hm LEFT_GUI O  &kp APOSTROPHE
+&kp GLOBE  &kp Z  &kp X        &kp C           &kp D             &kp V      &kp K      &kp H              &kp COMMA        &kp DOT      &kp FSLH        &kp NON_US_BACKSLASH
+                               &mo 1           &kp SPACE         &kp TAB    &kp ENTER  &mt DEL BACKSPACE  &kp ESCAPE
             >;
 
             label = "BASE";
